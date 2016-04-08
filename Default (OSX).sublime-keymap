@@ -1,6 +1,6 @@
 [
-{ 
-    "keys": ["leftalt+ctrl+f"],
-    "command": "feedwhackfind"
-}
-]
+    { 
+        "keys": ["leftalt+ctrl+f"],
+        "command": "feedwhackfind"
+    }
+]   

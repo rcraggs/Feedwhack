@@ -6,7 +6,7 @@ class InsertfeedbackCommand(sublime_plugin.TextCommand):
 
     def run(self, edit, insert_text):
         self.view.insert(edit, self.view.sel()[0].begin(), insert_text)
-
+ 
 class FeedwhackfindCommand(sublime_plugin.TextCommand):
 
     feedback_dictionary = {}

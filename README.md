@@ -2,11 +2,11 @@
 
 A Sublime Text plugin to help writing feedback for student submission.
 
-This is helpful in the unlikley circumstances that you write feedback in the same way as me:
+This is helpful in the unlikely circumstances that you write feedback in the same way as me:
 
 ```markdown
 
-# Assignment X
+# Assignment 
 
 ## Group 1
 
@@ -27,5 +27,3 @@ This is helpful in the unlikley circumstances that you write feedback in the sam
 While adding feedback pressing <kbd>⌥</kbd> <kbd>^</kbd> <kbd>/</kbd> provides a lit of all of the feedback given to other groups for that section.
 
 If I was writing feedback for Group 2 and was in a `### Task 1 - Planning` section I would see the following: ![](media/example-screenshot.png)
-
-
