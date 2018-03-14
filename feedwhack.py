@@ -26,7 +26,7 @@ def createFeedbackDictionary(source_lines, view, current_line_number):
             current_header = prev_header
 
         # If this is a bullet point add it to the list for the header
-        bullet_match = re.match( r'^\s*-\s+((?!@@).+)', line_text) # Ignore lines starting with @@
+        bullet_match = re.match( r'^\s*-\s+((?!@@)(?!e\.g\.).+)', line_text) # Ignore lines starting with @@
         if bullet_match and len(bullet_match.group(1).strip()) > 0:
             
             bullet_text = bullet_match.group(1).strip()
